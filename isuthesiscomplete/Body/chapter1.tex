@@ -1,47 +1,58 @@
 % Chapter 1 of the Thesis Template File
 \chapter{GENERAL INTRODUCTION}
+Edward Lorenz quote about butterflies
+The Butterfly Effect has passed into popular culture (Palmer ref). 
+Rough linkage of title to weather forecasting
 
-This is the opening paragraph to my thesis which
-explains in general terms the concepts and hypothesis
-which will be used in my thesis.
+The following thesis comprises four papers. The present chapter continues with a review of background and literature relating to topics within the present thesis. Chapter~\ref{chp:paper1} describes mulitple ensemble configurations that simulate two contrasting bow echoes: one well forecast, another poorly forecast. Chapter~\ref{chp:paper4} describes a modification to the Structure Amplitude Location (Wernli ref) method, where composite reflectivity is used (instead of accumulated precipitation) to gauge the skill of the North American Model summertime forecasts in the central United States. This method is then used in Chapter~\ref{chp:paper2} to consider whether decreased horizontal grid spacing (\dx) increases the spread and skill of a bow-echo ensemble forecast. Analysis of the relationship between mesoscale and synoptic-scale predictability of convective systems is shown in Chapter~\ref{paper3}. General conclusions are then presented in Chapter~\ref{chp:conc}.
 
-With more general information given here than really
-necessary.
+[look at PhD Prelim papers for more content]
 
-\section{Introduction}
+\section{Mesoscale convective systems}
+The mesoscale, often defined in meteorology as the scale between 2 and 2000\,km, is the arena in which thunderstorm cells and complexes form.
 
-Here initial concepts and conditions are explained and
-several hypothesis are mentioned in brief.
+Single to multicell
+Mesoscale convective systems (MCSs) are thunderstorm complexes more than 100\,km long in one dimension.
 
-\subsection{Hypothesis}
+\section{Bow echoes}
+Prog vs serial
+Hazards
+Appearance on radar (show examples)
+Lifecycle and lifetimes
+Mechanisms (RIJ, cold pool, microbursts, hail)
+Review of previous observational studies
+Poorly forecast in SG14
+Review of other papers (Wandishin, James, Clark) for BE/MCS forecast skill, diurnal
 
-Here one particular hypothesis is explained in depth
-and is examined in the light of current literature.
+\section{Predictability horizons}
+Length scale to time scale
+Chaos - Lorenz etc - brief mention of fractals, clouds and turbulence
+Tie last two together for `time horizon'
+Butterflies - name of thesis! Predictability of bow echoes
+Practical predictability?
+Define predictability, vs skill, etc
+IC error vs model error
+Systematic vs random error
+Durran papers, butterfly papers x2
+Zhang papers, predictability on mesoscales
 
-\subsubsection{Parts of the hypothesis}
+\section{Numerical simulation}
+Numerical simulation 
+How this relates to predictability with extra error introduced
+Grid spacing
+Spread and skill relationship
+Methods in global/regional models
 
-Here one particular part of the hypothesis that is 
-currently being explained is examined and particular
-elements of that part are given careful scrutiny.
+Ensembles - rationale and info from Leutbecher/Palmer paper
+Ensemble types (setting up paper 1)
+Mixed IC methods
+Mixed param methods - what are params, model error, stochastic?
+SKEB scheme, findings, applicability to convective scales (SCB)
 
-% Below \subsubsection
-% Sectional commands: \paragraph and \subparagraph may also be used
-
-\subsection{Second Hypothesis}
-
-Here one particular hypothesis is explained in depth
-and is examined in the light of current literature.
-
-\subsubsection{Parts of the second hypothesis}
-
-Here one particular part of the hypothesis that is 
-currently being explained is examined and particular
-elements of that part are given careful scrutiny.
-
-\section{Criteria Review}
-
-Here certain criteria are explained thus eventually
-leading to a foregone conclusion.
-
-
+How to score forecasts: spread (std, DTE), skill 
+Issue of using mean, ways around it (PMM, closest-to-mean, object-based)
+(Note we use closest-to-median for paper 2 and object-based SAL in paper 2/4)
+Previous numerical simulations of bow echoes
+Verification vs obs (radar, ASOS etc)
+Error in obs ~ model uncertainty
 
